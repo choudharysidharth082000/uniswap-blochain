@@ -8,7 +8,7 @@ import newLogo from "../Assets/newLogo.webp"
 // import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
 
 const style = {
-  wrapper: "w-screen items-center flex justify-center mt-14 px-6 md: p-0",
+  wrapper: "w-screen items-center flex justify-center mt-14 px-7 md: p-0",
   content: "bg-[#19181f] w-[40rem] rounded-2xl p-4",
   formHeader: "px-2 flex items-center justify-between font-semibold text-xl",
   transferPropContainor:
