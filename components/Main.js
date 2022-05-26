@@ -8,7 +8,7 @@ import newLogo from "../Assets/newLogo.webp"
 // import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
 
 const style = {
-  wrapper: "w-screen items-center flex justify-center mt-14 p-8",
+  wrapper: "w-screen items-center flex justify-center mt-14 p-6 md: p-0",
   content: "bg-[#19181f] w-[40rem] rounded-2xl p-4",
   formHeader: "px-2 flex items-center justify-between font-semibold text-xl",
   transferPropContainor:
@@ -22,7 +22,7 @@ const style = {
   currencySelectorTicker: "mx-2 text-white text-md",
   currencySelectorArrow: "text-lg text-white",
   confirmButton:
-    "bg-[#2172E5] my-2 rounded-2xl py-6 px-8 text-xl font-semibold flex items-center justify-center cursor-pointer border border-[#2172E5] hover:border-[#234169]",
+    "bg-[#2172E5] my-2 rounded-2xl py-5 px-7 text-xl font-semibold flex items-center justify-center cursor-pointer border border-[#2172E5] hover:border-[#234169] md:py-6 px-8",
 };
 const Main = () => {
   return (
